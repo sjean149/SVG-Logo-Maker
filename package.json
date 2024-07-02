@@ -6,7 +6,39 @@
 
     "jest": "^29.7.0"
 
-  }
+  },
+
+  "name": "svg-logo-maker",
+
+  "version": "1.0.0",
+
+  "description": "It is run using index.js. All the user has to do is input logoText, textColor, shape, shapeColor, and their preferred fileType and the program will create an instance of the coressponding class that will generate either an SVG or HTML file of the logo.",
+
+  "main": "index.js",
+
+  "directories": {
+
+    "example": "examples",
+
+    "lib": "lib",
+
+    "test": "tests"
+
+  },
+
+  "devDependencies": {},
+
+  "scripts": {
+
+    "test": "jest"
+
+  },
+
+  "keywords": [],
+
+  "author": "",
+
+  "license": "ISC"
 
 }
 
