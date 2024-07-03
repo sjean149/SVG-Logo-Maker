@@ -12,7 +12,9 @@ The user can select logoText (up to 3 characters), textColor, shape, shapeColor,
 
 
 ## Usage
-This program is useful for creating a logo with customized colors and shapes. 
+[Demonstration video](https://app.screencastify.com/v3/watch/OlxamiGecRJZQeNJ2b3v)
+
+This above video demonstrates how this program is useful for creating a logo with customized colors and shapes. 
 
 ## License 
 MIT License
