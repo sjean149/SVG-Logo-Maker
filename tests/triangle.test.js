@@ -5,7 +5,7 @@ describe('my Triangle tests', () => {
     test('Should create new triangle class and render SVG code for it', () => {
         const triangle = new Triangle('ABC', 'blue', 'cirlce', 'yellow', 'SVG');
         triangle.renderSVG();
-        expect(triangle.svgShape).toBe(`<polygon points="10,0 10,300 200,150" fill="lime"/>`);
+        expect(triangle.svgShape).toBe(`<polygon points="10,0 10,300 200,150" fill="yellow"/>`);
 
     })
 

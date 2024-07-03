@@ -1,7 +1,6 @@
 //import inquirer from 'inquirer';
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { type } = require('os');
 const Shapes = require('./lib/shapes');
 
 const Circle = require('./lib/circle');
@@ -68,9 +67,6 @@ inquirer
 
     }).then(data => {
         
-        console.log("Second .then ", data);
-        console.log("data.filetupe", fileType);
-
         //deletes logo html file if one exists and user chooses to make html file
         if (fileType == 'HTML') {
             if (fs.existsSync('logo.html')) {
